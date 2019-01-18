@@ -1,0 +1,17 @@
+LANChat
+
+first download a mongodb and create a database called chat
+
+start mongodb as follows
+a. sudo service mongod start
+b. mongo --host 127.0.0.1:27017 or just type "mongo" to start
+
+now open the the LANChat folder and do 
+sudo npm install to install all dependencies on the server
+sudo npm start
+
+open a browser and use the ip address togther with the port number: 3000
+as ipaddress:3000
+
+let the clients connect through the browser and use the server ip with port number
+ 

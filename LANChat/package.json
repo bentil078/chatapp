@@ -1,0 +1,29 @@
+{
+  "name": "LANChat",
+  "version": "1.0.0",
+  "description": "LANChat",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "LANChat",
+  "license": "MIT",
+  "dependencies": {
+    "express":"^4.15.3",
+    "pug": "^2.0.0-rc.2",
+    "socket.io": "^2.0.3",
+    "express-session":"^1.15.4",
+    "mongoose":"^4.11.4",
+    "body-parser":"^1.17.1"
+  },
+  "engines":{
+	"node":"6.11.0"
+  },
+  "repository":{
+	"type":"git",
+	"url": ""
+  },
+  "keywords":[
+	"node","chat","express","socket.io","socket"
+  ]
+}
